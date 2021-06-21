@@ -20,6 +20,7 @@ body {
   border: 2px solid lightgrey;
   border-radius: 25px;
   margin-top: 10px;
+  margin-bottom: 10px;
   border-collapse: separate;
   border-spacing: 15px, 10rem;
 }
@@ -40,4 +41,13 @@ body {
 
 h3 {
   text-decoration: underline;
+}
+
+.fab{
+  font-size: 3em;
+  color: black;
+}
+
+.fab:hover{
+  color: blue;
 }

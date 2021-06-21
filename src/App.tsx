@@ -8,8 +8,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1 className="header-border">My Favourite Places </h1>
+      
       </header>
       <main className="main-content">
+      
         <Place
           placeTitle={"London Eye"}
           placePicture={
@@ -68,7 +70,9 @@ function App() {
         />
       </main>
       <footer className="footer-content">
-        <h1>Add Stuff Here</h1>
+        <h1> Add Stuff Here</h1>
+        
+        <a href="https://github.com/bomojowo" rel="noreferrer" target="_blank"><i className="fab fa-github"></i></a>
       </footer>
     </div>
   );
