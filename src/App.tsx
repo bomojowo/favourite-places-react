@@ -70,7 +70,7 @@ function App() {
         />
       </main>
       <footer className="footer-content">
-        <h1> Add Stuff Here</h1>
+        <h1> Find more stuff below</h1>
         
         <a href="https://github.com/bomojowo" rel="noreferrer" target="_blank"><i className="fab fa-github"></i></a>
       </footer>
