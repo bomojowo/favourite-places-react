@@ -1,24 +1,30 @@
-.App-header, .footer-content{
+body {
+  padding: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.App-header,
+.footer-content {
   text-align: center;
   border: 2px solid darkgrey;
-  border-radius: 25px ;
+  border-radius: 25px;
   background-color: darkgrey;
 }
 
-.main-content{
+.main-content {
   text-align: center;
 }
 
-.cardHolder{
+.cardHolder {
   border: 2px solid lightgrey;
   border-radius: 25px;
-  padding: 8px;
+  margin-top: 10px;
   border-collapse: separate;
   border-spacing: 15px, 10rem;
-  
 }
 
-.placeWhy{
+.placeWhy {
   border: 2px solid grey;
   border-radius: 25px;
   display: inline;
@@ -26,9 +32,8 @@
   padding: 3px;
 }
 
-.london-eye{
+.placePicture {
   max-width: 70%;
   height: auto;
-  padding:8px;
+  padding: 8px;
 }
-
