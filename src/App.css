@@ -34,6 +34,10 @@ body {
 
 .placePicture {
   max-width: 70%;
-  height: auto;
   padding: 8px;
+  max-height: 70%;
+}
+
+h3 {
+  text-decoration: underline;
 }
