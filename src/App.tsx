@@ -1,7 +1,9 @@
 import React from "react";
 import Place from "./Place";
+import Places from "./places.json"
 import "./App.css";
 //import LondonEye from "./images/london-eye.png";
+
 
 function App() {
   return (
@@ -13,32 +15,20 @@ function App() {
       <main className="main-content">
       
         <Place
-          placeTitle={"London Eye"}
-          placePicture={
-            "https://images.unsplash.com/photo-1523590564318-491748f70ea7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
-          }
-          placeName={"London"}
-          placeCountry={"England"}
-          placeWhy={
-            "Even though i dont like heights, its good for bonding time. It's nice to see the whole of London at night too!"
-          }
-          placeMap={
-            "https://www.google.com/maps/d/viewer?mid=1Yv2q2kSjL-2fqJczikCqxQGiJy8&msa=0&ll=51.503220000000034%2C-0.11955100000000662&z=17"
-          }
+          placeTitle={Places.places[0].title}
+          placePicture={Places.places[0].picture}
+          placeName={Places.places[0].name}
+          placeCountry={Places.places[0].country}
+          placeWhy={Places.places[0].why}
+          placeMap={Places.places[0].map}
         />
         <Place
-          placeTitle={"Effiel Tower"}
-          placePicture={
-            "https://images.unsplash.com/photo-1578946086429-98dbab17a54f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWZmaWVsJTIwdG93ZXIlMjBwYXJpc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
-          }
-          placeName={"Paris"}
-          placeCountry={"France"}
-          placeWhy={
-            "placeholder"
-          }
-          placeMap={
-            "https://www.google.com/maps/d/viewer?mid=1I-xxMzYPZtirHwEBi46D3K5wc-U&ie=UTF8&oe=UTF8&msa=0&ll=48.858278000000006%2C2.2943829999999954&z=17"
-          }
+           placeTitle={Places.places[1].title}
+           placePicture={Places.places[1].picture}
+           placeName={Places.places[1].name}
+           placeCountry={Places.places[1].country}
+           placeWhy={Places.places[1].why}
+           placeMap={Places.places[1].map}
         />
          <Place
           placeTitle={"Leaning Tower of Pisa"}
