@@ -1,3 +1,5 @@
+//import Places from './places.json';
+
 interface PlaceProps {
   placeTitle: string;
   placeName: string;
@@ -6,7 +8,7 @@ interface PlaceProps {
   placeWhy: string;
   placeMap: string;
 }
-
+//console.log(Places.places[0].title)
 function Place(props: PlaceProps): JSX.Element {
   return (
     <div>
