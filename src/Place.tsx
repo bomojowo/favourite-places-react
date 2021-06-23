@@ -1,34 +1,39 @@
-//import Places from './places.json';
+import Places from './places.json';
 
-interface PlaceProps {
-  placeTitle: string;
-  placeName: string;
-  placeCountry: string;
-  placePicture: string;
-  placeWhy: string;
-  placeMap: string;
-}
-//console.log(Places.places[0].title)
-function Place(props: PlaceProps): JSX.Element {
+// interface PlaceProps {
+//   placeTitle: string;
+//   placeName: string;
+//   placeCountry: string;
+//   placePicture: string;
+//   placeWhy: string;
+//   placeMap: string;
+// }
+
+function Place(): JSX.Element { 
+console.log(Places[1].title)
+
   return (
     <div>
-      <div className="cardHolder">
-        <div className="placeTitle">
-          <h3>{props.placeTitle}</h3>
-        </div>
-        <img
-          className="placePicture"
-          src={props.placePicture}
-          alt="London Eye"
-        />
-        <div className="placeCityCountry">
-          {props.placeName}, {props.placeCountry}
-          <a href={props.placeMap}>(Map link)</a>
-        </div>
-        <div className="placeWhy">{props.placeWhy}</div>
-      </div>
+        {Places.map((place)=>(
+            <div className="cardHolder" key={place.id}>
+                <div className="placeTitle">
+                <h3>{place.title}</h3>
+                </div>
+                <img
+                className="placePicture"
+                src={place.picture}
+                alt="London Eye"
+                />
+                <div className="placeCityCountry">
+                {place.name}, {place.country}
+                <a href={place.map}>(Map link)</a>
+                </div>
+                <div className="placeWhy">{place.why}</div>
+            </div>
+        ))}
     </div>
-  );
+    );
 }
+
 
 export default Place;
