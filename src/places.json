@@ -1,6 +1,6 @@
-{
-    "places": [
+ [
         {
+            "id": 1,
             "title": "London Eye",
             "name": "London",
             "country": "England",
@@ -9,6 +9,7 @@
             "map": "https://www.google.com/maps/d/viewer?mid=1Yv2q2kSjL-2fqJczikCqxQGiJy8&msa=0&ll=51.503220000000034%2C-0.11955100000000662&z=17"
         },
         {
+            "id": 2,
             "title": "Effiel Tower",
             "name": "Paris",
             "country": "France",
@@ -17,6 +18,7 @@
             "map": "https://www.google.com/maps/d/viewer?mid=1I-xxMzYPZtirHwEBi46D3K5wc-U&ie=UTF8&oe=UTF8&msa=0&ll=48.858278000000006%2C2.2943829999999954&z=17"
         },
         {
+            "id": 3,
             "title": "Leaning Tower of Pisa",
             "name": "Pisa",
             "country": "Italy",
@@ -25,6 +27,7 @@
             "map": "https://www.google.com/maps/d/viewer?mid=1ckb0UEWs8I1USGNHmNJqnLBfFnc&ie=UTF8&oe=UTF8&msa=0&ll=43.723303999999985%2C10.394160999999999&z=17"
         },
         {
+            "id": 4,
             "title": "Disneyland Florida",
             "name": "Orlando Florida",
             "country": "United States",
@@ -33,4 +36,3 @@
             "map": "https://www.google.com/maps/place/Walt+Disney+World%C2%AE+Resort/@28.3771857,-81.5729287,17z/data=!3m1!4b1!4m5!3m4!1s0x88dd7ee634caa5f7:0xa71e391fd01cf1a0!8m2!3d28.3771857!4d-81.57074"
         }
     ]
-}
